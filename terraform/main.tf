@@ -4,7 +4,7 @@ terraform {
 
 provider "google" {
   project = var.project
-  region  = var.project
+  region  = var.region
 }
 
 resource "google_compute_instance" "app" {
